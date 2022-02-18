@@ -5,7 +5,10 @@
 #include <stdio.h>
 
 int main() {
-  
+  int mark1,mark2;
+  scanf("%d",&mark1);
+  scanf("%d",&mark2);
+  printf("Avarge mark : %.2f",(mark1+mark2)/2.0);
   return 0;
 }
 
